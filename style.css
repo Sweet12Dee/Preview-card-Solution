@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(217,54%, 11%);
+}
+.card{
+    background-color: hsl(216,50%, 16%);
+    width: 19rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: auto ;
+    margin-top: 8rem;
+}
+p{
+    font-size: 18px;
+}
+.equil{
+    width: 19rem;
+    height: 19rem;
+    border-radius: 0.5rem;
+}
+.avatar{
+    width: 2.2rem;
+    border: aliceblue 2px solid;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+}
+.colective{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+   border-color: hsl(215,32%, 27%);
+}
+.avatarflex{
+    justify-content:flex-start;
+}
+.flex{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+.lightblue{
+    color: hsl(178, 100% , 50%);
+}
+.softblue{
+    color: hsl(215,51%, 70%);
+}
+.white{
+    color: hsl(0,0%,100%);
+}
+
+@media(max-width:375px){
+    .card{
+        width: 17rem;
+        margin-top: 3rem;
+    }
+    .equil{
+        width: 17rem;
+        height: 17rem;
+        border-radius: 0.5rem;
+    }
+}
+@media(max-height:750px){
+    .card{
+        margin-top: 3rem;
+    }
+    
+}
+
+@media only screen and (height: 600px){
+    .card{
+        width: 17rem;
+        margin-top: 0;
+    }
+    .equil{
+        width: 17rem;
+        height: 17rem;
+        border-radius: 0.5rem;
+    }
+}
